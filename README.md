@@ -40,4 +40,4 @@ func main() {
 
 Will generate the following Blocks for posting to Slack.
 
-![Sample](./Assets/Sample.png)
+![Sample](./Assets/Sample.PNG)
