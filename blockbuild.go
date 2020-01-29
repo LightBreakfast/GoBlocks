@@ -129,7 +129,7 @@ func GenerateBlocksString(blocks []Blocks) (blockstr string) {
 }
 
 //GenerateOverFlow - This Generates an Overflow block from a Slice Of Strings - (Emoji is always on)
-func GenerateOverFlow(items []string) (options Blocks) {
+func GenerateOverFlow(items []string, title string) (options Blocks) {
 
 	var o []Options
 
@@ -147,7 +147,7 @@ func GenerateOverFlow(items []string) (options Blocks) {
 
 	Section := Blocks{Type: "section",
 		Text: &Text{
-			Text: "Vehicle States",
+			Text: title,
 			Type: "mrkdwn",
 		},
 		Accessory: &Accessory{
