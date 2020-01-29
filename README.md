@@ -15,7 +15,7 @@ package main
 import (
     "fmt"
 
-	blocks "github.com/This-Is-Not-Brad/GoBlocks"
+    blocks "github.com/This-Is-Not-Brad/GoBlocks"
 )
 
 func main() {
